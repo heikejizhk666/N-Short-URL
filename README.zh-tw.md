@@ -1,8 +1,8 @@
 # N Short URL
-[![TChinese](https://img.shields.io/badge/Simplified-Chinese-yellowgreen)](https://github.com/heikejizhk666/N-Short-URL/REAME.md)
-[![Chinese](https://img.shields.io/badge/Traditional-Chinese-orange)](https://github.com/heikejizhk666/N-Short-URL/REAME.zh-tw.md)
-[![English](https://img.shields.io/badge/-English-blue)](https://github.com/heikejizhk666/N-Short-URL/REAME.en.md)
-[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/heikejizhk666/N-Short-URL/LICENSE)
+[![TChinese](https://img.shields.io/badge/Simplified-Chinese-yellowgreen)](https://github.com/heikejizhk666/N-Short-URL/blob/main/README.md)
+[![Chinese](https://img.shields.io/badge/Traditional-Chinese-orange)](https://github.com/heikejizhk666/N-Short-URL/blob/main/README.zh-tw.md)
+[![English](https://img.shields.io/badge/-English-blue)](https://github.com/heikejizhk666/N-Short-URL/blob/main/README.en.md)
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/heikejizhk666/N-Short-URL/blob/main/LICENSE)
 
 N Short URL，一款不能多得的短連結系統。 使用MDUI框架，響應式設計，完美相容PC、Android、Mac、IOS、iPad等設備。
 
