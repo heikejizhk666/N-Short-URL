@@ -1,5 +1,7 @@
 # N Short URL
-<a href="https://github.com/heikejizhk666/N-Short-URL/REAME.en.md"><img src="https://img.shields.io/badge/-English-blue" style="width: 66px;height: auto;"></a><a href="https://github.com/heikejizhk666/N-Short-URL/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green" style="width: 66px;height: auto;">
+[![Chinese](https://img.shields.io/badge/-Chinese-yellowgreen)](https://github.com/heikejizhk666/N-Short-URL/REAME.md)
+[![English](https://img.shields.io/badge/-English-blue)](https://github.com/heikejizhk666/N-Short-URL/REAME.en.md)
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/heikejizhk666/N-Short-URL/LICENSE)
 
 N Short URL，一款不能多得的短链接系统。使用MDUI框架，响应式设计，完美兼容PC、Android、Mac、IOS、iPad等设备。
 
