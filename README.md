@@ -1,5 +1,7 @@
 # N Short URL
 
+![https://github.com/heikejizhk666/N-Short-URL/README.en.md](https://img.shields.io/badge/-English-blue)
+
 N Short URL，一款不能多得的短链接系统。使用MDUI框架，响应式设计，完美兼容PC、Android、Mac、IOS、iPad等设备。
 
 可自行设置链接过期时间，注册登录后永久保存链接。使用必应每日一图作为背景，漂亮时尚。
