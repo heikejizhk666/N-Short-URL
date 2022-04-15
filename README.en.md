@@ -1,7 +1,8 @@
 # N Short URL
-[![Chinese](https://img.shields.io/badge/-Chinese-yellowgreen)](https://github.com/heikejizhk666/N-Short-URL/REAME.md)
-[![English](https://img.shields.io/badge/-English-blue)](https://github.com/heikejizhk666/N-Short-URL/REAME.en.md)
-[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/heikejizhk666/N-Short-URL/LICENSE)
+[![TChinese](https://img.shields.io/badge/Simplified-Chinese-yellowgreen)](https://github.com/heikejizhk666/N-Short-URL/blob/main/README.md)
+[![Chinese](https://img.shields.io/badge/Traditional-Chinese-orange)](https://github.com/heikejizhk666/N-Short-URL/blob/main/README.zh-tw.md)
+[![English](https://img.shields.io/badge/-English-blue)](https://github.com/heikejizhk666/N-Short-URL/blob/main/README.en.md)
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/heikejizhk666/N-Short-URL/blob/main/LICENSE)
 
 N short URL, a short link system that can't be more. Using mdui framework and responsive design, it is perfectly compatible with PC, Android, MAC, IOS, iPad and other devices.
 
