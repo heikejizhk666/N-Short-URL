@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="短网址">
+		<meta name="description" content="免费的短网址服务~">
+		<meta name="viewport" content="width=device-width">
+		<title>网址详情 - N Short URL</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body class="mdui-appbar-with-toolbar fanz">
+		<!-- 顶部导航 -->
+		<div class="mdui-appbar mdui-appbar-fixed mdui-shadow-0">
+			<div class="mdui-toolbar mdui-color-white mdui-shadow-0">
+				<button class="mdui-btn mdui-ripple""
+					mdui-drawer=" {target: '#left-drawer' ,overlay: true }"><i class="mdui-icon material-icons">menu</i>
+				</button>
+				<span class="mdui-typo-title">网址详情</span>
+				<div class="mdui-toolsupportbar-spacer"></div>
+			</div>
+		</div>
+		<div id="tab4">
+			<!-- 介绍 -->
+			<div class="mdui-card card">
+				<div class="mdui-card-content mdui-typo">
+					<center>
+						<h1>网址详情</h1>
+					</center>
+				</div>
+			</div>
+			<!-- 短网址 -->
+			<div class="mdui-card card">
+				<div class="mdui-card-content mdui-typo">
+					<center>
+						您的短网址是：<br>
+					</center>
+					<center>
+						该网址天内有效
+					</center>
+				</div>
+			</div>
+		</div>
+		<!-- 侧边 -->
+		<div class="mdui-drawer mdui-color-white mdui-drawer-close" id="left-drawer">
+			<ul class="mdui-list">
+				<li class="mdui-list-item mdui-ripple" onclick="window.location.href='./'">
+					<i class="mdui-icon material-icons">&#xe88a;</i>
+					<div class="mdui-list-item-content">首页</div>
+				</li>
+
+				<li class="mdui-list-item mdui-ripple" onclick="window.open('./login.html')">
+					<i class="mdui-icon material-icons">&#xe853;</i>
+					<div class="mdui-list-item-content">登录</div>
+				</li>
+
+				<li class="mdui-list-item mdui-ripple" onclick="window.location.href='./register.html'">
+					<i class="mdui-icon material-icons">&#xe890;</i>
+					<div class="mdui-list-item-content">注册</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 底部版权 -->
+		<center>
+			<div class="mdui-card card">
+				<div class="mdui-card-primary">
+					<div class="mdui-card-primary-title mdui-center">
+						© 2022 N Short URL
+					</div>
+				</div>
+			</div>
+		</center>
+		<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
+	</body>
+</html>

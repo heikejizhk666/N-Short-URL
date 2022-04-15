@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>登录 - N Short URL</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" />
+		<link rel="stylesheet" href="./css/login.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+
+	<body class="mdui-appbar-with-toolbar fanz">
+		<!-- 顶部导航 -->
+		<div class="mdui-appbar mdui-appbar-fixed mdui-shadow-0">
+			<div class="mdui-toolbar mdui-color-white mdui-shadow-0">
+				<button class="mdui-btn mdui-ripple""
+				mdui-drawer=" {target: '#left-drawer' ,overlay: true }"><i class="mdui-icon material-icons">menu</i>
+				</button>
+				<span class="mdui-typo-title">N Short URL</span>
+				<div class="mdui-toolsupportbar-spacer"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="title">
+				<h1>用户登录</h1>
+			</div>
+			<div class="mdui-card card">
+				<div class="mdui-card-content mdui-typo">
+					<div class="content">
+						<form action="" onsubmit="return false">
+							<div class="mdui-container">
+								<div class="mdui-textfield mdui-textfield-floating-label">
+									<label class="mdui-textfield-label">用户名：</label>
+									<input class="mdui-textfield-input" type="text" id="name" />
+								</div>
+							</div>
+							<div class="mdui-container">
+								<div class="mdui-textfield mdui-textfield-floating-label">
+									<label class="mdui-textfield-label">密码：</label>
+									<input class="mdui-textfield-input" type="password" id="pwd" onblur="pwdCheck()" />
+								</div>
+							</div>
+							<center><button class="mdui-btn mdui-color-theme-accent mdui-ripple mdui-btn-raised"
+									onclick="sub()" id="submit">登录</button></center><br>
+							<center>没有账号？<a href="./register.html">立即注册</a></center>
+						</form>
+						<!-- 侧边 -->
+						<div class="mdui-drawer mdui-color-white mdui-drawer-close" id="left-drawer">
+							<ul class="mdui-list">
+								<li class="mdui-list-item mdui-ripple" onclick="window.location.href='./'">
+									<i class="mdui-icon material-icons">&#xe88a;</i>
+									<div class="mdui-list-item-content">首页</div>
+								</li>
+
+								<li class="mdui-list-item mdui-ripple" onclick="window.open('./login.html')">
+									<i class="mdui-icon material-icons">&#xe853;</i>
+									<div class="mdui-list-item-content">登录</div>
+								</li>
+
+								<li class="mdui-list-item mdui-ripple" onclick="window.location.href='./register.html'">
+									<i class="mdui-icon material-icons">&#xe890;</i>
+									<div class="mdui-list-item-content">注册</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 底部版权 -->
+				<center>© 2022 N Short URL</center>
+				<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+				<script src="./js/login.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
+	</body>
+</html>
